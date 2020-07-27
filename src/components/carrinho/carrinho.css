@@ -1,0 +1,104 @@
+.header_carrinho{
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    color: white;
+    height: 48px;
+    line-height: 50px;
+    text-align: right;
+}
+.carrinho{
+    padding: 0px;
+    position: fixed;
+    top: 50px;
+    right: 0px;
+    width: 300px;
+    text-align: center;
+    background-color: transparent;
+}
+.div_titulo_carrinho{
+    background-color: blue;
+    border-top: solid 1px white;
+    font-weight: normal;
+    height: 50px;
+    width: calc(100% - 10px);
+    font-size: 20px;
+    padding-left: 10px;
+    color: white;
+    position: fixed;
+    text-align: left;
+    line-height: 15px;
+}
+
+.div_lista_pedido{
+    padding: 10px;
+    height: max-content;
+    max-height: 50vh;
+    overflow-y: scroll;
+    background-color: white;
+}
+
+.div_fim_carrinho{
+    margin-top: 0px;
+    background-color: blue;
+    border-top: solid 1px blue;
+}
+.div_total{
+    width: 100%;
+    height: 20px;
+    line-height: 10px;
+    color: white;
+    text-align: right;
+    font-size: 25px;
+}
+.div_total p{
+    margin-right: 10px;
+}
+.div_finalizar_compra{
+    text-align: right;
+    height: 50px;
+    line-height: 50px;
+}
+.btn_finalizar_compra{
+    display: inline-block;
+    background-color: blue;
+    border: solid 1px white;
+    border-radius: 3px;
+    width: 200px;
+    height: 30px;
+    cursor: pointer;
+    color: white;
+    font-weight: bolder;
+    font-size: 20px;
+    margin-right: 10px;
+}
+.btn_finalizar_compra:hover{
+    background-color: rgb(21, 3, 104);
+}
+
+.seta_carrinho{
+    height: 15px;
+    vertical-align: middle;
+}.btn_carrinho{
+    background-color: blue;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    font-size: 15px;
+    display: inline-block;
+    margin-right: 10px;
+}
+.inativo{
+    display: none;
+}
+.ativo{
+    display: block;
+}
+@media(min-width:661px){
+
+}
+@media(max-width:660px){
+
+   
+    
+}

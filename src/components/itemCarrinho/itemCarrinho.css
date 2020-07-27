@@ -1,0 +1,17 @@
+.item_carrinho{
+    list-style: none;
+    border-bottom: solid 1px #dddddd;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.img_item_arrinho{
+    width: 50px;
+    vertical-align: middle;
+}
+.valor{
+    width: 50px;
+    text-align: right;
+}

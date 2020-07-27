@@ -1,0 +1,16 @@
+body{
+    background-color: #dddddd;
+}
+.lista{
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; 
+    
+}
+.div_conteudo{
+    margin-top: 50px;
+}
+.lista{
+    width: 100%;
+}
